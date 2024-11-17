@@ -1,6 +1,6 @@
 #!/bin/bash
-
-
+ 
+SIMON ALBERT
 cat /etc/hosts | while read -r line; do
     if [[ -z "$line" || "$line" =~ ^# ]]; then
         continue
