@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+ILINCA MARTOLE
 cat /etc/hosts | while read -r line; do
     if [[ -z "$line" || "$line" =~ ^# ]]; then
         continue
